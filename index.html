@@ -1,0 +1,355 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grade 3 Science Adventure v0.3.2</title><style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#17324d;background:linear-gradient(145deg,#eaf7ff,#f7fff0);min-height:100vh}button{font:inherit}.app{max-width:1000px;margin:auto;padding:18px}.card{background:#fff;border-radius:24px;padding:24px;box-shadow:0 10px 30px #17324d18}.hero{text-align:center}.explorer{font-size:58px}.hero h1{margin:4px 0;font-size:clamp(30px,6vw,46px)}.muted{color:#64788a}.stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}.pill{background:#eef6ff;border-radius:999px;padding:8px 12px;font-weight:700}.bar{height:14px;background:#e4edf3;border-radius:999px;overflow:hidden}.fill{height:100%;background:#49a56b;width:0;transition:.3s}.map{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:20px}.mission{min-height:170px;border:2px solid #d9e7ef;border-radius:20px;background:#fbfdff;padding:14px;cursor:pointer}.mission:hover:not(:disabled){transform:translateY(-3px);border-color:#2878d0}.mission:disabled{opacity:.55;cursor:not-allowed}.mission .icon{font-size:44px}.mission .num{font-size:12px;color:#718595;font-weight:800}.mission.done{background:#f1fbf5;border-color:#4da66d}.btn{border:0;border-radius:14px;padding:12px 18px;font-weight:800;cursor:pointer}.primary{background:#2878d0;color:white}.secondary{background:#eaf0f5;color:#17324d}.qhead{text-align:center}.qcard{margin-top:16px}.choice{display:block;width:100%;margin:10px 0;padding:14px;border:2px solid #dce7ee;border-radius:14px;background:#fff;text-align:left;cursor:pointer}.choice:hover{border-color:#2878d0}.choice:disabled{cursor:default}.feedback{margin-top:14px;padding:14px;border-radius:14px}.good{background:#e8f7ed}.bad{background:#fdecec}.center{text-align:center}.stars{font-size:32px;letter-spacing:3px}.fact{margin-top:16px;padding:14px;background:#fff7d6;border-left:5px solid #e0a800;border-radius:12px}@media(max-width:760px){.map{grid-template-columns:repeat(2,1fr)}.mission:last-child{grid-column:span 2}}@media(max-width:430px){.map{grid-template-columns:1fr}.mission:last-child{grid-column:auto}}
+</style></head><body>
+
+<style id="v04-style">
+:root{--ink:#17324d;--muted:#61758a;--card:#ffffff;--sky:#dff3ff;--leaf:#dff5df;--gold:#ffd95a;--line:#d7e4ec}
+body{margin:0!important;font-family:"Trebuchet MS",Arial,sans-serif!important;background:linear-gradient(180deg,#dff4ff 0%,#f8fff0 55%,#fffaf0 100%)!important;color:var(--ink)!important;min-height:100vh}
+.v04-wrap{max-width:1050px;margin:auto;padding:18px}
+.v04-hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#fff,#eefaff);border:2px solid #fff;border-radius:30px;padding:24px 20px 20px;box-shadow:0 12px 35px rgba(34,76,100,.13);text-align:center}
+.v04-hero:before,.v04-hero:after{content:"";position:absolute;border-radius:50%;opacity:.55}
+.v04-hero:before{width:140px;height:140px;background:#e4f7d9;left:-45px;top:-55px}
+.v04-hero:after{width:170px;height:170px;background:#fff0bf;right:-60px;bottom:-90px}
+.v04-explorer{font-size:64px;position:relative;z-index:1;filter:drop-shadow(0 4px 2px rgba(0,0,0,.08))}
+.v04-hero h1{font-size:clamp(30px,6vw,48px);margin:4px 0;color:#20516c;position:relative;z-index:1}
+.v04-hero p{margin:5px;color:var(--muted);font-size:16px;position:relative;z-index:1}
+.v04-progress{height:18px;background:#e8eef2;border-radius:99px;margin:18px auto 10px;max-width:700px;overflow:hidden;border:2px solid #fff}
+.v04-fill{height:100%;background:linear-gradient(90deg,#72b86b,#f2c94c);border-radius:99px;transition:width .4s}
+.v04-stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:12px 0}
+.v04-pill{background:#fff;border:1px solid var(--line);padding:8px 13px;border-radius:99px;font-weight:700;font-size:13px;box-shadow:0 3px 10px rgba(30,70,90,.06)}
+.v04-section-title{text-align:center;margin:24px 0 10px;font-size:24px}
+.v04-map{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+.v04-card{position:relative;border:2px solid #fff;border-radius:22px;padding:16px 10px;min-height:190px;background:#fff;box-shadow:0 7px 20px rgba(30,70,90,.10);cursor:pointer;transition:transform .18s,box-shadow .18s}
+.v04-card:hover:not(:disabled){transform:translateY(-5px);box-shadow:0 12px 26px rgba(30,70,90,.15)}
+.v04-card:disabled{cursor:not-allowed;opacity:.6;filter:grayscale(.15)}
+.v04-card.done{background:linear-gradient(180deg,#fff,#f3fff0)}
+.v04-card .scene{font-size:48px;margin:2px}
+.v04-num{font-size:11px;letter-spacing:1px;font-weight:800;color:#7a8b99}
+.v04-card h3{font-size:16px;margin:7px 0 8px;line-height:1.2}
+.v04-status{font-weight:800;font-size:13px}
+.v04-badge{margin:12px auto 0;display:inline-block;background:#fff4b8;border:1px solid #e5c75c;padding:6px 9px;border-radius:99px;font-size:11px;font-weight:800}
+.v04-tip{margin:18px 0;background:#fffdf1;border:1px solid #eadc9b;border-radius:18px;padding:14px 16px;line-height:1.45}
+.v04-badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.v04-earned{background:#fff;border:1px solid var(--line);border-radius:16px;padding:9px 12px;box-shadow:0 3px 9px rgba(30,70,90,.06);font-size:13px}
+.v04-game-head{background:#fff;border-radius:20px;padding:15px;box-shadow:0 7px 20px rgba(30,70,90,.09);text-align:center;border:1px solid var(--line)}
+.v04-back{border:0;background:#edf4f8;border-radius:12px;padding:10px 14px;font-weight:800;cursor:pointer;margin-bottom:12px}
+.v04-mission-icon{font-size:48px}
+.v04-complete{background:#fff;border-radius:24px;padding:28px 18px;text-align:center;box-shadow:0 10px 28px rgba(30,70,90,.11);border:1px solid var(--line);margin-top:18px}
+.v04-stars{font-size:35px;letter-spacing:4px;margin:8px}
+.v04-badge-big{font-size:64px}
+.v04-action{border:0;border-radius:14px;padding:12px 17px;font-weight:800;cursor:pointer;margin:5px}
+@media(max-width:800px){.v04-map{grid-template-columns:repeat(2,1fr)}.v04-card:last-child{grid-column:1/-1}}
+@media(max-width:440px){.v04-map{grid-template-columns:1fr}.v04-card:last-child{grid-column:auto}.v04-wrap{padding:10px}}
+</style>
+<main class="app" id="app"></main><script src="questions/term2.js"></script><script>
+(function(){
+const BANK=window.G3ScienceTerm2Questions; if(!Array.isArray(BANK)||BANK.length!==105){document.getElementById('app').innerHTML='<div class="card center"><h2>Question bank failed to load.</h2><p>Please reopen the extracted game folder.</p></div>';return;}
+const missions=[['Living and Non-Living','🌱','The Living Things Garden'],['Animal and Plant Parts','🐾','Amazing Body Parts'],['Basic Needs and Environment','💧','The Needs of Life Village'],['Movement: Pushes, Pulls, and Causes','💨','Motion Mountain'],['Position and Change in Position','📍','The Moving World']];
+const KEY='g3_science_adventure_v032';let s=JSON.parse(localStorage.getItem(KEY)||'null')||{unlocked:1,completed:{},stars:0,correct:0,answered:0};
+function save(){localStorage.setItem(KEY,JSON.stringify(s))} function esc(x){return String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function map(){const pct=Math.round(Object.keys(s.completed).length/5*100);document.getElementById('app').innerHTML=`<section class="card hero"><div class="explorer">🧑‍🔬</div><h1>Science Adventure</h1><p class="muted">Explore, discover, and become a Science Explorer!</p><div class="bar"><div class="fill" style="width:${pct}%"></div></div><div class="stats"><span class="pill">⭐ ${s.stars} Stars</span><span class="pill">✅ ${s.correct} Correct</span><span class="pill">🗺️ ${Object.keys(s.completed).length}/5 Missions</span></div></section><section class="map">${missions.map((m,i)=>{let n=i+1,c=s.completed[n],lock=n>s.unlocked;return `<button class="mission ${c?'done':''}" ${lock?'disabled':''} data-n="${n}"><div class="icon">${m[1]}</div><div class="num">MISSION ${n}</div><b>${m[2]}</b><div>${lock?'🔒 Locked':c?'⭐'.repeat(c.stars)+' '+c.stars+'/3':'🚀 Start'}</div></button>`}).join('')}</section><div class="fact"><b>🔬 Science Explorer Tip:</b> Observe carefully, think about the evidence, and try again when you make a mistake.</div>`;document.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>play(+b.dataset.n))}
+function play(n){const m=missions[n-1];let qs=BANK.filter(q=>q.topic===m[0]).sort(()=>Math.random()-.5).slice(0,3);if(qs.length!==3){alert('This mission has a question-bank problem.');return}let i=0,correct=0,answered=0,lives=3;render();
+function render(){let q=qs[i];document.getElementById('app').innerHTML=`<button class="btn secondary" id="back">← Adventure Map</button><section class="card qhead" style="margin-top:12px"><div style="font-size:42px">${m[1]}</div><h2>Mission ${n}: ${m[2]}</h2><div>❤️ ${lives} &nbsp; | &nbsp; Question ${i+1} of 3</div></section><section class="card qcard"><div class="muted">${esc(q.level)} • ${esc(q.topic)}</div><h2>${esc(q.question)}</h2><div id="choices"></div><div id="fb"></div></section>`;document.getElementById('back').onclick=map;q.choices.forEach((choice,idx)=>{let b=document.createElement('button');b.className='choice';b.textContent=String.fromCharCode(65+idx)+'. '+choice;b.onclick=()=>answer(idx,b);document.getElementById('choices').appendChild(b)})}
+function answer(idx,clicked){let q=qs[i];document.querySelectorAll('.choice').forEach(b=>b.disabled=true);answered++;let ok=idx===q.answer;if(ok)correct++;else lives--;let fb=document.getElementById('fb');fb.className='feedback '+(ok?'good':'bad');fb.innerHTML=`<b>${ok?'🎉 Correct!':'💡 Not quite!'}</b><br>${!ok?'Correct answer: <b>'+String.fromCharCode(65+q.answer)+'</b><br>':''}${esc(q.rationale)}<br><button class="btn primary" id="next" style="margin-top:10px">${i===2||lives===0?'Finish Mission':'Next Question →'}</button>`;document.getElementById('next').onclick=()=>{if(i===2||lives===0)finish();else{i++;render()}}}
+function finish(){let pct=correct/answered,stars=pct>=.9?3:pct>=.7?2:1;s.completed[n]={stars,correct,answered};s.unlocked=Math.max(s.unlocked,Math.min(5,n+1));s.stars=Object.values(s.completed).reduce((a,x)=>a+x.stars,0);s.correct=Object.values(s.completed).reduce((a,x)=>a+x.correct,0);s.answered=Object.values(s.completed).reduce((a,x)=>a+x.answered,0);save();document.getElementById('app').innerHTML=`<section class="card center"><div style="font-size:56px">${m[1]}</div><h1>Mission ${n} Complete!</h1><div class="stars">${'⭐'.repeat(stars)}${'☆'.repeat(3-stars)}</div><p><b>${correct}/${answered}</b> correct</p><p>${stars===3?'🏆 Outstanding, Science Explorer!':stars===2?'🌟 Great work!':'🌱 Good effort! Replay to improve your stars.'}</p><button class="btn primary" id="again">🔄 Replay Mission</button> <button class="btn secondary" id="home">🗺️ Adventure Map</button></section>`;document.getElementById('again').onclick=()=>play(n);document.getElementById('home').onclick=map}}
+map();})();</script>
+<script id="v04-visual-layer">
+(function(){
+  const missions=[
+    {title:"The Living Things Garden",icon:"🌱",badge:"Living Things Detective",color:"#e9f8df"},
+    {title:"Amazing Body Parts",icon:"🐾",badge:"Body Parts Explorer",color:"#fff2d8"},
+    {title:"The Needs of Life Village",icon:"💧",badge:"Life Needs Guardian",color:"#e4f5ff"},
+    {title:"Motion Mountain",icon:"💨",badge:"Motion Master",color:"#edf0ff"},
+    {title:"The Moving World",icon:"📍",badge:"Position Pathfinder",color:"#fff0f4"}
+  ];
+  const key="g3_science_adventure_v04";
+  let state=JSON.parse(localStorage.getItem(key)||"null")||{unlocked:1,completed:{},stars:0,correct:0,answered:0};
+  function save(){localStorage.setItem(key,JSON.stringify(state))}
+  function bank(){return window.G3ScienceTerm2Questions||[]}
+  function topicQuestions(i){
+    const terms=["Living and Non-Living","Animal and Plant Parts","Basic Needs and Environment","Movement: Pushes, Pulls, and Causes","Position and Change in Position"];
+    const t=terms[i-1].toLowerCase();
+    return bank().filter(q=>String(q.topic||"").toLowerCase().includes(t.split(" ")[0]) || String(q.topic||"").toLowerCase()===t);
+  }
+  function badgeList(){
+    return missions.map((m,i)=>state.completed[i+1]?`<span class="v04-earned">🏅 ${m.badge}</span>`:"").filter(Boolean).join("");
+  }
+  function map(){
+    const old=document.getElementById("v03Adventure"); if(old) old.remove();
+    document.body.querySelectorAll("main").forEach((m,i)=>{if(i>0)m.remove()});
+    const main=document.querySelector("main")||document.body.appendChild(document.createElement("main"));
+    main.innerHTML="";
+    const wrap=document.createElement("div"); wrap.className="v04-wrap";
+    const pct=Math.round(Object.keys(state.completed).length/5*100);
+    wrap.innerHTML=`
+      <section class="v04-hero">
+        <div class="v04-explorer">🧑‍🔬</div>
+        <h1>Science Adventure</h1>
+        <p>Explore • Discover • Learn</p>
+        <div class="v04-progress"><div class="v04-fill" style="width:${pct}%"></div></div>
+        <div class="v04-stats">
+          <span class="v04-pill">⭐ ${state.stars} Stars</span>
+          <span class="v04-pill">🔬 ${state.correct} Correct</span>
+          <span class="v04-pill">🗺️ ${Object.keys(state.completed).length}/5 Missions</span>
+        </div>
+      </section>
+      <h2 class="v04-section-title">🗺️ Choose Your Adventure</h2>
+      <section class="v04-map">
+        ${missions.map((m,i)=>{
+          const n=i+1,c=state.completed[n],locked=n>state.unlocked;
+          return `<button class="v04-card ${c?'done':''}" data-n="${n}" ${locked?'disabled':''} style="background:${c?m.color:'#fff'}">
+            <div class="scene">${m.icon}</div><div class="v04-num">MISSION ${n}</div>
+            <h3>${m.title}</h3>
+            <div class="v04-status">${locked?'🔒 Locked':c?'⭐'.repeat(c.stars)+' '+c.stars+'/3 Stars':'🚀 Begin Mission'}</div>
+            ${c?`<div class="v04-badge">🏅 ${m.badge}</div>`:""}
+          </button>`;
+        }).join("")}
+      </section>
+      <div class="v04-tip"><strong>🔬 Science Explorer Tip:</strong> Scientists observe carefully, ask questions, and learn from mistakes. Keep exploring!</div>
+      <div class="v04-badges">${badgeList()||'<span class="v04-earned">🏅 Complete missions to collect badges!</span>'}</div>
+    `;
+    main.appendChild(wrap);
+    wrap.querySelectorAll("[data-n]").forEach(b=>b.onclick=()=>play(+b.dataset.n));
+  }
+
+  function play(n){
+    const m=missions[n-1],qs=[...topicQuestions(n)].sort(()=>Math.random()-.5).slice(0,3);
+    if(qs.length<3){alert("This mission does not have enough questions loaded.");return}
+    let idx=0,correct=0,answered=0,lives=3;
+    const main=document.querySelector("main"); main.innerHTML="";
+    const wrap=document.createElement("div");wrap.className="v04-wrap";main.appendChild(wrap);
+    function render(){
+      const q=qs[idx], choices=q.choices||[];
+      wrap.innerHTML=`
+        <button class="v04-back" id="back">← Adventure Map</button>
+        <section class="v04-game-head"><div class="v04-mission-icon">${m.icon}</div><h2>Mission ${n}: ${m.title}</h2>
+        <div>❤️ ${lives} &nbsp; • &nbsp; Question ${idx+1} of 3</div></section>
+        <section class="v04-complete" style="text-align:left">
+          <div style="font-size:12px;font-weight:800;color:#728596">${q.difficulty||"SCIENCE EXPLORER"}</div>
+          <h3>${q.question}</h3>
+          <div id="choices"></div><div id="fb"></div>
+        </section>`;
+      document.getElementById("back").onclick=map;
+      const c=document.getElementById("choices");
+      choices.forEach((txt,j)=>{
+        const b=document.createElement("button");b.className="v04-action";b.style.cssText+="display:block;width:100%;text-align:left;background:#fff;border:1px solid #d5e1e8;margin:8px 0";b.textContent=String.fromCharCode(65+j)+". "+txt;
+        b.onclick=()=>answer(j,b,q,c);c.appendChild(b);
+      });
+    }
+    function answer(j,btn,q,c){
+      [...c.children].forEach(b=>b.disabled=true);
+      answered++;
+      const right=Number(q.answer)===j || String(q.correct_answer||"").toUpperCase()===String.fromCharCode(65+j);
+      if(right)correct++;else lives--;
+      const fb=document.getElementById("fb");
+      fb.innerHTML=`<div style="margin-top:14px;padding:14px;border-radius:14px;background:${right?'#eaf8e8':'#fff0f0'}"><strong>${right?'🎉 Correct!':'💡 Keep exploring!'}</strong><br>${q.rationale||''}</div>`;
+      const next=document.createElement("button");next.className="v04-action";next.style.background="#3d7f5b";next.style.color="#fff";next.textContent=(idx===2||lives===0)?"Finish Mission":"Next Question →";
+      next.onclick=()=>{if(idx===2||lives===0)finish();else{idx++;render()}};fb.appendChild(next);
+    }
+    function finish(){
+      const stars=correct/answered>=.9?3:correct/answered>=.7?2:1;
+      state.completed[n]={stars,correct,answered};state.unlocked=Math.max(state.unlocked,Math.min(5,n+1));
+      state.stars=Object.values(state.completed).reduce((s,x)=>s+x.stars,0);
+      state.correct=Object.values(state.completed).reduce((s,x)=>s+x.correct,0);
+      state.answered=Object.values(state.completed).reduce((s,x)=>s+x.answered,0);save();
+      wrap.innerHTML=`<button class="v04-back" id="map">← Adventure Map</button>
+      <section class="v04-complete"><div class="v04-badge-big">${m.icon}</div><h2>Mission Complete! 🎉</h2>
+      <div class="v04-stars">${"⭐".repeat(stars)}${"☆".repeat(3-stars)}</div>
+      <h3>${m.badge} Badge Unlocked!</h3><p><strong>${correct}/${answered}</strong> correct</p>
+      <p>${stars===3?"Amazing work, Science Explorer!":stars===2?"Great work! Keep exploring!":"Good effort! Replay the mission to improve your stars."}</p>
+      <button class="v04-action" id="again" style="background:#e5f3ff">🔄 Replay Mission</button></section>`;
+      document.getElementById("map").onclick=map;document.getElementById("again").onclick=()=>play(n);
+    }
+    render();
+  }
+  // v0.4 takes over the presentation but keeps the tested data source.
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",map);else map();
+})();
+</script>
+
+
+<style id="v06-profile-style">
+.v06-profile{margin-top:20px;padding:20px;background:#fff;border:1px solid #d7e4ec;border-radius:22px;box-shadow:0 7px 20px rgba(30,70,90,.08)}
+.v06-profile h2{text-align:center;margin:0 0 14px}
+.v06-statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.v06-stat{padding:14px 8px;text-align:center;border-radius:16px;background:#f4f8fa}
+.v06-stat strong{display:block;font-size:24px}
+.v06-stat span{font-size:12px;color:#66798a}
+.v06-badges{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-top:14px}
+.v06-badge{padding:12px 6px;text-align:center;border-radius:15px;background:#f3f6f8;font-size:12px}
+.v06-badge.earned{background:#fff3b7;border:1px solid #dfc45a}
+.v06-badge .icon{font-size:28px;display:block;margin-bottom:4px}
+.v06-cert{margin-top:16px;padding:22px;text-align:center;border-radius:22px;border:3px solid #e0c65c;background:linear-gradient(135deg,#fffdf0,#eefaff)}
+.v06-cert .trophy{font-size:62px}
+.v06-cert h3{margin:5px 0;font-size:24px}
+.v06-reset{display:block;margin:15px auto 0;border:0;background:#edf3f7;padding:9px 13px;border-radius:10px;font-weight:700;cursor:pointer}
+@media(max-width:760px){.v06-statgrid{grid-template-columns:repeat(2,1fr)}.v06-badges{grid-template-columns:repeat(2,1fr)}.v06-badge:last-child{grid-column:1/-1}}
+</style>
+
+
+<script id="v06-profile">
+(function(){
+  const missions=[
+    ["🌱","Living Things Detective"],["🐾","Body Parts Explorer"],
+    ["💧","Life Needs Guardian"],["💨","Motion Master"],["📍","Position Pathfinder"]
+  ];
+  const key="g3_science_adventure_v04";
+  function read(){
+    try{return JSON.parse(localStorage.getItem(key)||"null")||{completed:{},stars:0,correct:0,answered:0}}
+    catch(e){return {completed:{},stars:0,correct:0,answered:0}}
+  }
+  function profileHTML(){
+    const s=read(), done=Object.keys(s.completed).length;
+    const accuracy=s.answered?Math.round(s.correct/s.answered*100):0;
+    return `<section class="v06-profile">
+      <h2>🧑‍🔬 My Science Explorer Profile</h2>
+      <div class="v06-statgrid">
+        <div class="v06-stat"><strong>${done}/5</strong><span>Missions Completed</span></div>
+        <div class="v06-stat"><strong>⭐ ${s.stars||0}</strong><span>Total Stars</span></div>
+        <div class="v06-stat"><strong>${s.correct||0}</strong><span>Correct Answers</span></div>
+        <div class="v06-stat"><strong>${accuracy}%</strong><span>Accuracy</span></div>
+      </div>
+      <div style="text-align:center;margin-top:18px;font-weight:800">🏅 Badge Collection</div>
+      <div class="v06-badges">${missions.map((m,i)=>{
+        const e=s.completed[i+1];
+        return `<div class="v06-badge ${e?'earned':''}"><span class="icon">${e?m[0]:"🔒"}</span><strong>${m[1]}</strong><br><span>${e?"Earned":"Locked"}</span></div>`;
+      }).join("")}</div>
+      ${done===5?`<div class="v06-cert"><div class="trophy">🏆</div><h3>Certified Science Explorer!</h3><p>You completed all five Second Term Science Adventures.</p><strong>⭐ ${s.stars} Stars • ${accuracy}% Accuracy</strong><p style="font-size:12px;color:#66798a">Keep observing, asking questions, and exploring!</p></div>`:""}
+      <button class="v06-reset" id="v06Reset">Reset Adventure Progress</button>
+    </section>`;
+  }
+  function inject(){
+    const wrap=document.querySelector(".v04-wrap");
+    if(!wrap||wrap.querySelector(".v06-profile"))return;
+    wrap.insertAdjacentHTML("beforeend",profileHTML());
+    const b=document.getElementById("v06Reset");
+    if(b)b.onclick=()=>{
+      if(confirm("Reset all Science Adventure progress?")){
+        localStorage.removeItem(key); location.reload();
+      }
+    };
+  }
+  const observer=new MutationObserver(()=>setTimeout(inject,30));
+  function start(){observer.observe(document.body,{childList:true,subtree:true});inject();}
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
+})();
+</script>
+
+
+<style id="v07-style">
+.v07-random-note{margin:10px 0 0;text-align:center;font-size:12px;color:#687b89}
+</style>
+<script id="v07-randomize-answers">
+(function(){
+  // Randomize answer positions without changing the underlying question bank.
+  // The displayed correct position is calculated from the shuffled choices.
+  const originalBank = window.G3ScienceTerm2Questions;
+  if(!Array.isArray(originalBank)) return;
+
+  // Build a private randomized copy. Each question receives a shuffled
+  // choices array plus an internal correct index.
+  window.G3ScienceTerm2Questions = originalBank.map(function(q){
+    const choices = Array.isArray(q.choices) ? q.choices.slice() : [];
+    const originalAnswer = Number(q.answer);
+    const order = choices.map((_,i)=>i);
+
+    for(let i=order.length-1;i>0;i--){
+      const j=Math.floor(Math.random()*(i+1));
+      [order[i],order[j]]=[order[j],order[i]];
+    }
+
+    const shuffled=order.map(i=>choices[i]);
+    const correctIndex=order.indexOf(originalAnswer);
+
+    return Object.assign({},q,{
+      choices:shuffled,
+      answer:correctIndex
+    });
+  });
+
+  // The tested engine already reads q.choices and q.answer, so no other
+  // game logic needs to change.
+  window.G3ScienceAnswerPositionsRandomized = true;
+})();
+</script>
+
+
+<script>
+(function(){
+  function addNote(){
+    const hero=document.querySelector(".v04-hero");
+    if(hero && !hero.querySelector(".v07-random-note")){
+      const p=document.createElement("div");
+      p.className="v07-random-note";
+      p.textContent="🎲 Answer choices are shuffled for every game.";
+      hero.appendChild(p);
+    }
+  }
+  const o=new MutationObserver(addNote);
+  if(document.body)o.observe(document.body,{childList:true,subtree:true});
+  addNote();
+})();
+</script>
+
+
+<style id="v08-info-style">
+.v08-info{margin-top:20px;background:#fff;border:1px solid #d7e4ec;border-radius:22px;padding:20px;box-shadow:0 7px 20px rgba(30,70,90,.08)}
+.v08-info h2{text-align:center;margin-top:0}
+.v08-intro{text-align:center;color:#607589;line-height:1.5}
+.v08-coverage{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}
+.v08-item{padding:14px;border-radius:16px;background:#f5f9fb;border:1px solid #e0e9ee}
+.v08-item strong{display:block;margin-bottom:4px}
+.v08-about{margin-top:16px;padding:14px 16px;background:#fff9df;border:1px solid #ead47b;border-radius:16px;line-height:1.5}
+.v08-credit{margin-top:14px;text-align:center;font-size:11px;color:#718394}
+.v08-toggle{display:block;margin:14px auto 0;border:0;background:#e8f2f7;padding:10px 16px;border-radius:11px;font-weight:800;cursor:pointer}
+@media(max-width:600px){.v08-coverage{grid-template-columns:1fr}}
+</style>
+
+
+<script id="v08-info">
+(function(){
+  function addInfo(){
+    const wrap=document.querySelector(".v04-wrap");
+    if(!wrap || wrap.querySelector(".v08-info")) return;
+    const box=document.createElement("section");
+    box.className="v08-info";
+    box.innerHTML=`
+      <h2>📚 About Science Adventure</h2>
+      <p class="v08-intro">
+        A Grade 3 Science learning game designed to help learners review,
+        practice, and apply concepts through five interactive missions.
+      </p>
+      <div class="v08-coverage">
+        <div class="v08-item"><strong>🌱 Mission 1 — Living Things</strong>Living and non-living things; characteristics such as growth, response, and reproduction.</div>
+        <div class="v08-item"><strong>🐾 Mission 2 — Body Parts</strong>Animal and plant outer body parts and how they help living things live, move, and get what they need.</div>
+        <div class="v08-item"><strong>💧 Mission 3 — Basic Needs</strong>Air, food, water, shelter, relationships with the environment, and caring for the environment.</div>
+        <div class="v08-item"><strong>💨 Mission 4 — Movement</strong>Pushes, pulls, movement, and factors that can affect how objects move.</div>
+        <div class="v08-item"><strong>📍 Mission 5 — Position</strong>Describing changes in position using comparisons such as closer, farther, left, and right.</div>
+      </div>
+      <div class="v08-about">
+        <strong>🎮 How to Play</strong><br>
+        Answer the science questions, protect your three lives, earn stars,
+        unlock missions, and collect Science Explorer badges. Answer choices
+        are shuffled so learners cannot rely on a fixed answer-letter pattern.
+      </div>
+      <div class="v08-about">
+        <strong>👨‍👩‍👧 For Parents and Teachers</strong><br>
+        This game is intended as a supplementary practice and review activity.
+        It does not replace classroom instruction, teacher guidance, textbooks,
+        or official DepEd learning resources.
+      </div>
+      <div class="v08-credit">
+        Curriculum coverage is based on the Grade 3 Science Second Term
+        competencies used for this game. The question bank contains 105
+        practice questions across the five mission areas.
+      </div>
+    `;
+    wrap.appendChild(box);
+  }
+  const obs=new MutationObserver(()=>setTimeout(addInfo,40));
+  function start(){obs.observe(document.body,{childList:true,subtree:true});addInfo();}
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
+})();
+</script>
+
+</body></html>
