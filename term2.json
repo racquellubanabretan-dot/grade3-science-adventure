@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "G3S2_001",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which is a living thing?",
+    "choices": [
+      "A rock",
+      "A mango tree",
+      "A spoon",
+      "A toy car"
+    ],
+    "answer": 1,
+    "rationale": "A mango tree is living because it carries out life processes.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_002",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which is non-living?",
+    "choices": [
+      "A puppy",
+      "A butterfly",
+      "A chair",
+      "A grass plant"
+    ],
+    "answer": 2,
+    "rationale": "A chair does not grow, respond, or reproduce.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_003",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which observation shows that a plant is living?",
+    "choices": [
+      "It has a pot",
+      "It grows taller over time",
+      "It is green",
+      "It is near a window"
+    ],
+    "answer": 1,
+    "rationale": "Growth is a characteristic of living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_004",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "A chick grows into a chicken. Which characteristic of living things is shown?",
+    "choices": [
+      "Growth",
+      "Color",
+      "Weight only",
+      "Shape only"
+    ],
+    "answer": 0,
+    "rationale": "Growing and changing as an organism develops is a characteristic of living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_005",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "A dog moves away when it hears a loud sound. What characteristic is shown?",
+    "choices": [
+      "Response",
+      "Reproduction",
+      "Growth",
+      "Color"
+    ],
+    "answer": 0,
+    "rationale": "The dog responds to a change in its surroundings.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_006",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "A sunflower turns toward light. What characteristic is shown?",
+    "choices": [
+      "Response",
+      "Reproduction",
+      "Growth only",
+      "Being non-living"
+    ],
+    "answer": 0,
+    "rationale": "Responding to a stimulus such as light is a characteristic of living things.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_007",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "A hen lays eggs that can develop into chicks. What characteristic is shown?",
+    "choices": [
+      "Growth",
+      "Response",
+      "Reproduction",
+      "Breathing"
+    ],
+    "answer": 2,
+    "rationale": "Reproduction is the ability of living things to produce offspring.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_008",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which pair contains only living things?",
+    "choices": [
+      "Dog and tree",
+      "Rock and fish",
+      "Chair and flower",
+      "Book and bird"
+    ],
+    "answer": 0,
+    "rationale": "A dog and a tree are both living organisms.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_009",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which pair contains only non-living things?",
+    "choices": [
+      "Cat and ball",
+      "Stone and pencil",
+      "Plant and chair",
+      "Bird and cup"
+    ],
+    "answer": 1,
+    "rationale": "A stone and a pencil do not carry out life processes.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_010",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Why is a bicycle non-living even though it can move?",
+    "choices": [
+      "It has wheels",
+      "It can be pushed",
+      "It does not grow, respond, or reproduce by itself",
+      "It is made of metal"
+    ],
+    "answer": 2,
+    "rationale": "Movement alone does not make something living; living things carry out life processes.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_011",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which action is an example of a living thing responding?",
+    "choices": [
+      "A seed grows",
+      "A child pulls a chair",
+      "A plant bends toward light",
+      "A ball rolls downhill"
+    ],
+    "answer": 2,
+    "rationale": "The plant changes its position in response to light.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_012",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which example shows reproduction?",
+    "choices": [
+      "A puppy becomes a dog",
+      "A plant bends toward sunlight",
+      "A cat has kittens",
+      "A child runs"
+    ],
+    "answer": 2,
+    "rationale": "Having offspring is reproduction.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_013",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which statement is true about living things?",
+    "choices": [
+      "All living things are animals",
+      "Living things can grow",
+      "Living things never change",
+      "Living things do not need resources"
+    ],
+    "answer": 1,
+    "rationale": "Growth is one characteristic of living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_014",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which is evidence that a puppy is living?",
+    "choices": [
+      "It has a name",
+      "It grows bigger as it gets older",
+      "It has fur",
+      "It has four legs"
+    ],
+    "answer": 1,
+    "rationale": "Growth over time is evidence of life.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_015",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which situation shows response rather than growth?",
+    "choices": [
+      "A seed becomes a seedling",
+      "A child becomes taller",
+      "A person pulls a hand away from something hot",
+      "A chick becomes a chicken"
+    ],
+    "answer": 2,
+    "rationale": "Pulling a hand away from heat is a response to a stimulus.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_016",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which situation shows growth?",
+    "choices": [
+      "A baby becomes taller",
+      "A dog barks at a sound",
+      "A hen lays an egg",
+      "A ball rolls"
+    ],
+    "answer": 0,
+    "rationale": "Becoming larger or developing over time is growth.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_017",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which situation shows reproduction?",
+    "choices": [
+      "A mango tree produces seeds",
+      "A plant bends toward sunlight",
+      "A puppy gets taller",
+      "A bird flies away from a loud noise"
+    ],
+    "answer": 0,
+    "rationale": "Producing seeds is a way a plant can reproduce.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_018",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Why is a fallen leaf different from a living tree?",
+    "choices": [
+      "The leaf is colorful",
+      "The leaf is part of a tree",
+      "The fallen leaf no longer carries out the life processes of the living tree",
+      "The leaf is small"
+    ],
+    "answer": 2,
+    "rationale": "A fallen leaf is no longer a whole living organism carrying out those life processes.",
+    "level": "Challenging"
+  },
+  {
+    "id": "G3S2_019",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "A robot can walk when its battery is on. Is the robot a living thing?",
+    "choices": [
+      "Yes, because it moves",
+      "Yes, because it uses energy",
+      "No, because it does not grow, respond as a living organism, or reproduce",
+      "No, because it is heavy"
+    ],
+    "answer": 2,
+    "rationale": "Movement and energy use by a machine do not make it a living organism.",
+    "level": "Challenging"
+  },
+  {
+    "id": "G3S2_020",
+    "topic": "Living and Non-Living",
+    "competency": "Observe and describe the difference between living and non-living things; describe growth, response, and reproduction.",
+    "question": "Which group includes something living and something non-living?",
+    "choices": [
+      "Tree and bird",
+      "Cat and dog",
+      "Flower and rock",
+      "Fish and chicken"
+    ],
+    "answer": 2,
+    "rationale": "A flower is living while a rock is non-living.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_021",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which body part helps a bird fly?",
+    "choices": [
+      "Wings",
+      "Fins",
+      "Roots",
+      "Hooves"
+    ],
+    "answer": 0,
+    "rationale": "Wings help birds move through the air.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_022",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which body part helps a fish move through water?",
+    "choices": [
+      "Fins",
+      "Wings",
+      "Fur",
+      "Roots"
+    ],
+    "answer": 0,
+    "rationale": "Fins help fish move and steer in water.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_023",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which body part does a rabbit use to move from place to place?",
+    "choices": [
+      "Legs",
+      "Leaves",
+      "Roots",
+      "Fins"
+    ],
+    "answer": 0,
+    "rationale": "Rabbit legs help it walk, run, and jump.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_024",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which body part helps a bird pick up food?",
+    "choices": [
+      "Beak",
+      "Root",
+      "Fin",
+      "Leaf"
+    ],
+    "answer": 0,
+    "rationale": "A bird uses its beak to pick up and eat food.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_025",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which body part helps a cow gather and chew grass?",
+    "choices": [
+      "Mouth",
+      "Wings",
+      "Fins",
+      "Tail"
+    ],
+    "answer": 0,
+    "rationale": "The mouth and teeth help a cow take in and chew food.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_026",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Why are legs important to many animals?",
+    "choices": [
+      "They help animals move",
+      "They absorb water from soil",
+      "They make sunlight",
+      "They make seeds"
+    ],
+    "answer": 0,
+    "rationale": "Legs can help animals walk, run, jump, or move.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_027",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "A duck has webbed feet. How can these help the duck?",
+    "choices": [
+      "They help it swim",
+      "They help it grow leaves",
+      "They absorb soil nutrients",
+      "They make food"
+    ],
+    "answer": 0,
+    "rationale": "Webbed feet help a duck paddle through water.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_028",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which animal body part can help a monkey hold or grasp food?",
+    "choices": [
+      "Hands",
+      "Fins",
+      "Roots",
+      "Gills"
+    ],
+    "answer": 0,
+    "rationale": "Hands can help a monkey grasp and handle food.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_029",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which plant part usually takes in water from the soil?",
+    "choices": [
+      "Roots",
+      "Flowers",
+      "Fruits",
+      "Leaves"
+    ],
+    "answer": 0,
+    "rationale": "Roots absorb water from the soil.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_030",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which plant part takes in nutrients from the soil?",
+    "choices": [
+      "Roots",
+      "Petals",
+      "Fruit",
+      "Flower"
+    ],
+    "answer": 0,
+    "rationale": "Roots take in water and nutrients from the soil.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_031",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which plant part is usually above the ground and supports leaves?",
+    "choices": [
+      "Stem",
+      "Root",
+      "Seed",
+      "Fruit"
+    ],
+    "answer": 0,
+    "rationale": "The stem supports leaves and connects different plant parts.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_032",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which plant part uses sunlight to help make food?",
+    "choices": [
+      "Leaf",
+      "Root",
+      "Stem only",
+      "Seed coat"
+    ],
+    "answer": 0,
+    "rationale": "Leaves use sunlight to help the plant make food.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_033",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which plant part is most directly involved in taking water from soil?",
+    "choices": [
+      "Root",
+      "Leaf",
+      "Flower",
+      "Fruit"
+    ],
+    "answer": 0,
+    "rationale": "Roots are the plant part that takes in water from the soil.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_034",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "A plant has damaged roots. What may happen?",
+    "choices": [
+      "It may have difficulty getting water and nutrients",
+      "It will grow faster",
+      "It will become an animal",
+      "It will no longer need sunlight"
+    ],
+    "answer": 0,
+    "rationale": "Damaged roots can make it harder for a plant to obtain water and nutrients.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_035",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Why are stems important to plants?",
+    "choices": [
+      "They support plant parts and help transport materials",
+      "They make the plant walk",
+      "They catch fish",
+      "They replace sunlight"
+    ],
+    "answer": 0,
+    "rationale": "Stems support the plant and help transport water and other materials.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_036",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which pair correctly matches a plant part and its role?",
+    "choices": [
+      "Root—takes in water and nutrients",
+      "Leaf—walks",
+      "Stem—eats insects in all plants",
+      "Flower—absorbs all soil water"
+    ],
+    "answer": 0,
+    "rationale": "Roots take in water and nutrients from the soil.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_037",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Which pair correctly matches an animal part and its role?",
+    "choices": [
+      "Wings—help many birds fly",
+      "Roots—help fish swim",
+      "Fins—help birds fly",
+      "Leaves—help dogs chew"
+    ],
+    "answer": 0,
+    "rationale": "Wings help many birds fly.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_038",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "A chicken uses its legs to walk and its beak to pick up food. What does this show?",
+    "choices": [
+      "Different body parts have different functions",
+      "All body parts do the same job",
+      "Only legs are useful",
+      "Only beaks are useful"
+    ],
+    "answer": 0,
+    "rationale": "Animal body parts have functions that help the animal live and carry out activities.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_039",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "A plant's roots and stem are both important. Which statement is correct?",
+    "choices": [
+      "Roots help get water and nutrients; the stem supports and transports materials",
+      "Both parts make the plant walk",
+      "Roots make sunlight; stem makes rain",
+      "Both parts are non-living objects"
+    ],
+    "answer": 0,
+    "rationale": "Roots and stems perform different but connected functions.",
+    "level": "Challenging"
+  },
+  {
+    "id": "G3S2_040",
+    "topic": "Animal and Plant Parts",
+    "competency": "Observe outer body parts of animals and plants and identify their roles in movement, getting food, water, and nutrients.",
+    "question": "Why do animals have different body parts?",
+    "choices": [
+      "Body parts help them carry out activities such as moving and getting food",
+      "All animals need exactly the same parts",
+      "Body parts are only for decoration",
+      "Body parts make animals non-living"
+    ],
+    "answer": 0,
+    "rationale": "Animal body parts have functions that help animals survive and carry out daily activities.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_041",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which is a basic need of living things?",
+    "choices": [
+      "Air",
+      "Toys",
+      "Television",
+      "Video games"
+    ],
+    "answer": 0,
+    "rationale": "Air is one of the basic needs of living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_042",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which is another basic need of living things?",
+    "choices": [
+      "Water",
+      "A cellphone",
+      "A bicycle",
+      "A television"
+    ],
+    "answer": 0,
+    "rationale": "Water is essential for living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_043",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which do humans and many animals need for nourishment?",
+    "choices": [
+      "Food",
+      "Plastic",
+      "Paint",
+      "Glass"
+    ],
+    "answer": 0,
+    "rationale": "Food provides nutrients and energy.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_044",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which can provide shelter for a living thing?",
+    "choices": [
+      "A nest",
+      "A pencil",
+      "A spoon",
+      "A ball"
+    ],
+    "answer": 0,
+    "rationale": "A nest can provide shelter for a bird.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_045",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Why does a fish need water?",
+    "choices": [
+      "It lives and meets many needs in an aquatic environment",
+      "Water is a toy",
+      "Water makes it a plant",
+      "Fish can live anywhere"
+    ],
+    "answer": 0,
+    "rationale": "Water is essential to fish and is part of their environment.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_046",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Why does a bird need a place to build a nest?",
+    "choices": [
+      "For shelter and a place to care for its young",
+      "To become non-living",
+      "To make sunlight",
+      "To avoid needing food"
+    ],
+    "answer": 0,
+    "rationale": "Shelter provides protection and a place to care for young.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_047",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which action helps living things get their needs?",
+    "choices": [
+      "Keeping water sources clean",
+      "Throwing trash into rivers",
+      "Destroying nests",
+      "Wasting water"
+    ],
+    "answer": 0,
+    "rationale": "Clean water sources help living things meet their needs.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_048",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "A bee gets nectar from flowers. What does this show?",
+    "choices": [
+      "Living things can depend on one another",
+      "Living things never interact",
+      "Flowers are non-living",
+      "Bees do not need food"
+    ],
+    "answer": 0,
+    "rationale": "The bee depends on plants for food.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_049",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "A butterfly visits flowers and gets nectar. What may the flower provide?",
+    "choices": [
+      "Food",
+      "A television",
+      "A toy",
+      "A school bag"
+    ],
+    "answer": 0,
+    "rationale": "Flowers can provide nectar as food for some animals.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_050",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "A bird eats insects. What does the bird get from the insects?",
+    "choices": [
+      "Food and nutrients",
+      "Shelter only",
+      "Sunlight",
+      "Soil"
+    ],
+    "answer": 0,
+    "rationale": "Animals can obtain food and nutrients by eating other living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_051",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Why do plants need sunlight?",
+    "choices": [
+      "Sunlight helps many plants make food",
+      "Sunlight is their shelter",
+      "Sunlight is soil",
+      "Sunlight replaces water"
+    ],
+    "answer": 0,
+    "rationale": "Plants use sunlight as part of the process of making food.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_052",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which environment can provide a fish with water and food sources?",
+    "choices": [
+      "A healthy pond",
+      "A dry road",
+      "A classroom wall",
+      "A plastic box with no water"
+    ],
+    "answer": 0,
+    "rationale": "A healthy pond can provide water, food sources, shelter, and space.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_053",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which action can harm the needs of living things?",
+    "choices": [
+      "Polluting a river",
+      "Planting trees",
+      "Protecting a nest",
+      "Saving water"
+    ],
+    "answer": 0,
+    "rationale": "Pollution can make water unsafe and damage habitats.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_054",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which action helps conserve the environment?",
+    "choices": [
+      "Planting and caring for trees",
+      "Throwing waste anywhere",
+      "Burning plastic outdoors",
+      "Wasting water"
+    ],
+    "answer": 0,
+    "rationale": "Planting and caring for trees helps protect habitats and resources.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_055",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Why should people avoid throwing trash into rivers?",
+    "choices": [
+      "Trash can pollute water and harm living things",
+      "Trash helps fish breathe",
+      "Trash makes water cleaner",
+      "Trash provides sunlight"
+    ],
+    "answer": 0,
+    "rationale": "Polluted water can harm aquatic organisms and their habitats.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_056",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which is a good way to care for an animal?",
+    "choices": [
+      "Provide appropriate food, water, and shelter",
+      "Hurt it",
+      "Take away its food",
+      "Destroy its shelter"
+    ],
+    "answer": 0,
+    "rationale": "Responsible care helps an animal meet its basic needs.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_057",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which is a good way to care for a plant?",
+    "choices": [
+      "Give it appropriate water and light",
+      "Pull out its roots",
+      "Break its stem",
+      "Cover all its leaves with dirt"
+    ],
+    "answer": 0,
+    "rationale": "Plants need appropriate water and light and should be handled carefully.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_058",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "A tree gives birds a place to live. What does this show?",
+    "choices": [
+      "Living things can depend on plants for shelter",
+      "Trees do not affect animals",
+      "Birds do not need shelter",
+      "Plants are non-living"
+    ],
+    "answer": 0,
+    "rationale": "Plants can provide habitat and shelter for animals.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_059",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Why is soil important to many plants?",
+    "choices": [
+      "It can provide water and nutrients and support roots",
+      "It makes plants walk",
+      "It replaces sunlight completely",
+      "It is food for all animals"
+    ],
+    "answer": 0,
+    "rationale": "Soil supports roots and can provide water and nutrients.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_060",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which statement best explains dependence on the environment?",
+    "choices": [
+      "Living things obtain resources they need from their surroundings",
+      "Living things never use their surroundings",
+      "Only non-living things need an environment",
+      "The environment is only made of buildings"
+    ],
+    "answer": 0,
+    "rationale": "Living things depend on their surroundings for resources such as air, water, food, and shelter.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_061",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "A community removes many trees and leaves animals without places to live. What may happen?",
+    "choices": [
+      "Some animals may lose shelter",
+      "All animals will become plants",
+      "Animals will no longer need food",
+      "The trees will grow immediately"
+    ],
+    "answer": 0,
+    "rationale": "Removing trees can reduce available habitat and shelter.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_062",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which choice shows caring for both plants and animals?",
+    "choices": [
+      "Keeping a park clean and protecting plants and animals",
+      "Breaking branches and chasing birds",
+      "Throwing waste into a pond",
+      "Destroying nests"
+    ],
+    "answer": 0,
+    "rationale": "Protecting habitats supports the needs of many living things.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_063",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Why is clean air important?",
+    "choices": [
+      "Living things need air to carry out life processes",
+      "Air is only useful to machines",
+      "Plants never use air",
+      "Animals can live without air forever"
+    ],
+    "answer": 0,
+    "rationale": "Living things need air for life processes.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_064",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which situation shows living things depending on one another for food?",
+    "choices": [
+      "A bird eats an insect",
+      "A rock sits on soil",
+      "A chair is beside a table",
+      "A pencil is in a bag"
+    ],
+    "answer": 0,
+    "rationale": "The bird depends on the insect as a food source.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_065",
+    "topic": "Basic Needs and Environment",
+    "competency": "Identify basic needs of living things; explain dependence on one another and the environment; recognize the need to protect and conserve the environment.",
+    "question": "Which is the best reason to conserve the environment?",
+    "choices": [
+      "To help living things continue to meet their needs",
+      "To make all places look the same",
+      "To stop all movement",
+      "To remove plants and animals"
+    ],
+    "answer": 0,
+    "rationale": "Conservation helps maintain the resources and habitats living things need.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_066",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "What can make a toy car move?",
+    "choices": [
+      "A push",
+      "Its color",
+      "Its name",
+      "A picture"
+    ],
+    "answer": 0,
+    "rationale": "A push can change the motion of an object.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_067",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Lina pulls a wagon toward herself. What is she doing?",
+    "choices": [
+      "Pulling",
+      "Pushing",
+      "Melting",
+      "Lighting"
+    ],
+    "answer": 0,
+    "rationale": "Pulling moves an object toward the person applying the force.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_068",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which can make a paper boat move on water without a person touching it?",
+    "choices": [
+      "Water current",
+      "Its color",
+      "Its name",
+      "A drawing"
+    ],
+    "answer": 0,
+    "rationale": "Moving water can cause an object to move.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_069",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which natural cause can move a kite?",
+    "choices": [
+      "Wind",
+      "Soil",
+      "A shadow",
+      "A rock"
+    ],
+    "answer": 0,
+    "rationale": "Wind can push against a kite and make it move.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_070",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which action is a push?",
+    "choices": [
+      "Closing a door by pressing it away from you",
+      "Bringing a drawer toward you",
+      "Picking up a book",
+      "Watching a ball"
+    ],
+    "answer": 0,
+    "rationale": "A push moves an object away from the person applying the force.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_071",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which action is a pull?",
+    "choices": [
+      "Opening a drawer toward you",
+      "Pushing a swing away",
+      "Kicking a ball away",
+      "Pressing a button"
+    ],
+    "answer": 0,
+    "rationale": "Pulling brings an object toward the person applying the force.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_072",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which activity uses rolling to move an object?",
+    "choices": [
+      "Rolling a ball across the floor",
+      "Carrying a book",
+      "Lifting a bag",
+      "Holding a cup still"
+    ],
+    "answer": 0,
+    "rationale": "A ball can move by rolling.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_073",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which activity uses carrying?",
+    "choices": [
+      "Walking while holding a box",
+      "Pushing a cart",
+      "Rolling a tire",
+      "Blowing a paper boat"
+    ],
+    "answer": 0,
+    "rationale": "Carrying means moving an object while holding it.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_074",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which can make a leaf move naturally?",
+    "choices": [
+      "Wind",
+      "Its color",
+      "Its name",
+      "A drawing"
+    ],
+    "answer": 0,
+    "rationale": "Wind can cause leaves to move.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_075",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which factor can affect how an object moves?",
+    "choices": [
+      "Size",
+      "Its name",
+      "Its owner",
+      "Its label"
+    ],
+    "answer": 0,
+    "rationale": "Size is one factor that can affect movement.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_076",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which factor can affect movement?",
+    "choices": [
+      "Heaviness",
+      "A person's favorite color",
+      "The object's nickname",
+      "A sticker design"
+    ],
+    "answer": 0,
+    "rationale": "Heavier objects may require more effort to move.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_077",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which factor can affect movement?",
+    "choices": [
+      "Surface texture",
+      "The object's name",
+      "The owner's age",
+      "The object's story"
+    ],
+    "answer": 0,
+    "rationale": "A rough or smooth surface can affect how an object moves.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_078",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which object would usually be easier to push?",
+    "choices": [
+      "An empty small box",
+      "A very heavy box of books",
+      "A full sack of rice",
+      "A large stone"
+    ],
+    "answer": 0,
+    "rationale": "A lighter object generally requires less effort to move.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_079",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Two toy cars are the same size, but one has a rough surface and one has a smooth surface. What might you observe?",
+    "choices": [
+      "They may move differently",
+      "They must always move exactly the same",
+      "Neither can move",
+      "Only their colors matter"
+    ],
+    "answer": 0,
+    "rationale": "Surface texture can affect movement.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_080",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "A ball rolls faster on a smooth floor than on a rough mat. What may have affected its movement?",
+    "choices": [
+      "Surface texture",
+      "Its name",
+      "Its color",
+      "Its owner"
+    ],
+    "answer": 0,
+    "rationale": "The surface can affect how easily an object rolls.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_081",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which shape may roll more easily?",
+    "choices": [
+      "A round ball",
+      "A flat sheet of paper",
+      "A square block",
+      "A flat board"
+    ],
+    "answer": 0,
+    "rationale": "A round object can roll because of its shape.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_082",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Why might a large heavy box need more effort to move than a small light box?",
+    "choices": [
+      "It is heavier and may be harder to move",
+      "It has a longer name",
+      "It is a darker color",
+      "It has a sticker"
+    ],
+    "answer": 0,
+    "rationale": "Heaviness can affect the effort needed to move an object.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_083",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which statement about material is reasonable?",
+    "choices": [
+      "Different materials can affect how objects move",
+      "Material never matters",
+      "Only color affects movement",
+      "Materials cannot be observed"
+    ],
+    "answer": 0,
+    "rationale": "The material of an object can affect its movement.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_084",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "A wooden block and a soft sponge are pushed with similar effort. Why might they behave differently?",
+    "choices": [
+      "Their materials and shapes are different",
+      "Their names are different",
+      "Their colors are different",
+      "They are both non-living"
+    ],
+    "answer": 0,
+    "rationale": "Material and shape can affect movement.",
+    "level": "Challenging"
+  },
+  {
+    "id": "G3S2_085",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which experiment best tests whether surface texture affects movement?",
+    "choices": [
+      "Roll the same ball over a smooth and a rough surface and compare",
+      "Change the ball, surface, and push all at once",
+      "Use only one surface and make no comparison",
+      "Ask the ball what it prefers"
+    ],
+    "answer": 0,
+    "rationale": "Changing one factor while keeping other conditions similar makes the comparison more useful.",
+    "level": "Challenging"
+  },
+  {
+    "id": "G3S2_086",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which experiment best tests the effect of heaviness?",
+    "choices": [
+      "Move objects of similar size with different weights using similar pushes",
+      "Use different sizes, surfaces, and pushes at the same time",
+      "Only observe one object",
+      "Change the color of one object"
+    ],
+    "answer": 0,
+    "rationale": "Keeping other factors similar helps you compare the effect of weight.",
+    "level": "Challenging"
+  },
+  {
+    "id": "G3S2_087",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which can change the direction of a moving object?",
+    "choices": [
+      "A push or pull from a different direction",
+      "Its color",
+      "Its name",
+      "A sticker"
+    ],
+    "answer": 0,
+    "rationale": "A force can change an object's direction of motion.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_088",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "A child pushes a toy car harder. What may happen?",
+    "choices": [
+      "The car may move faster",
+      "The car becomes a plant",
+      "The car loses its shape automatically",
+      "The car stops because it was pushed"
+    ],
+    "answer": 0,
+    "rationale": "A stronger push can change how the object moves, including its speed.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_089",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "A ball is pushed to the left. Which describes the movement?",
+    "choices": [
+      "The ball changes position toward the left",
+      "The ball stays exactly where it was",
+      "The ball becomes heavier",
+      "The ball becomes living"
+    ],
+    "answer": 0,
+    "rationale": "A push can cause an object to change position in a direction.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_090",
+    "topic": "Movement: Pushes, Pulls, and Causes",
+    "competency": "Explore and demonstrate movement by natural causes and people; describe factors affecting movement including size, shape, heaviness, material, and surface texture.",
+    "question": "Which example shows water causing movement?",
+    "choices": [
+      "A stream carries a small floating leaf",
+      "A pencil lies on a desk",
+      "A book sits on a shelf",
+      "A chair stands still"
+    ],
+    "answer": 0,
+    "rationale": "Moving water can carry floating objects.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_091",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A toy car starts beside a book. After being pushed, it is farther from the book. What changed?",
+    "choices": [
+      "Its position",
+      "Its color",
+      "Its material",
+      "Its name"
+    ],
+    "answer": 0,
+    "rationale": "Position describes where an object is compared with a reference point.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_092",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "Mia walks from her chair to the door. Compared with where she started, Mia is now:",
+    "choices": [
+      "in a different position",
+      "in exactly the same position",
+      "a non-living thing",
+      "inside the chair"
+    ],
+    "answer": 0,
+    "rationale": "Moving from one place to another changes position.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_093",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A ball moves from the left side of a box to the right side. What changed?",
+    "choices": [
+      "Its position",
+      "Its color",
+      "Its weight automatically",
+      "Its material"
+    ],
+    "answer": 0,
+    "rationale": "The ball changed position relative to the box.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_094",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A pencil is on the table. It is moved closer to a book. Which statement is correct?",
+    "choices": [
+      "The pencil's position changed",
+      "The pencil became living",
+      "The pencil changed into a book",
+      "The pencil became heavier"
+    ],
+    "answer": 0,
+    "rationale": "Moving closer to a reference point is a change in position.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_095",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "Which can be used as a reference point when describing where a toy is?",
+    "choices": [
+      "A chair",
+      "The toy's nickname",
+      "Its color",
+      "Its sticker"
+    ],
+    "answer": 0,
+    "rationale": "A nearby fixed object, such as a chair, can be used as a reference point.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_096",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A child moves two steps to the right from the starting point. How can the movement be described?",
+    "choices": [
+      "The child moved right from the original position",
+      "The child stayed in the same position",
+      "The child moved left",
+      "The child became non-living"
+    ],
+    "answer": 0,
+    "rationale": "The direction and change from the starting point describe the new position.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_097",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A ball is moved closer to a wall. Compared with its starting position, it is now:",
+    "choices": [
+      "closer to the wall",
+      "farther from the wall",
+      "in exactly the same place",
+      "above the wall"
+    ],
+    "answer": 0,
+    "rationale": "Moving toward the wall makes the ball closer to it.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_098",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A toy is moved farther away from a chair. What happened?",
+    "choices": [
+      "Its position changed farther from the reference point",
+      "Its color changed",
+      "Its size doubled",
+      "It became living"
+    ],
+    "answer": 0,
+    "rationale": "The chair can be a reference point for describing the change.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_099",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "Which pair of words can describe a change in position?",
+    "choices": [
+      "Closer and farther",
+      "Sweet and sour",
+      "Hard and soft",
+      "Hot and cold"
+    ],
+    "answer": 0,
+    "rationale": "Closer and farther describe relative position.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_100",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "Which pair can describe direction of movement?",
+    "choices": [
+      "Left and right",
+      "Big and small",
+      "Wet and dry",
+      "Hard and soft"
+    ],
+    "answer": 0,
+    "rationale": "Left and right describe direction.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_101",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A learner marks where a toy starts and where it ends. Why is this useful?",
+    "choices": [
+      "It helps compare the original and new positions",
+      "It changes the toy into a plant",
+      "It makes the toy heavier",
+      "It stops all movement"
+    ],
+    "answer": 0,
+    "rationale": "Marking start and end points helps describe a change in position.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_102",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A toy car starts at Point A and ends at Point B. What can you compare?",
+    "choices": [
+      "Its original and new positions",
+      "Its name and color only",
+      "Its owner and age",
+      "Its brand and price"
+    ],
+    "answer": 0,
+    "rationale": "Comparing the start and end locations shows the change in position.",
+    "level": "Moderate"
+  },
+  {
+    "id": "G3S2_103",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "A child moves from beside the door to beside the window. What is the best description?",
+    "choices": [
+      "The child's position changed",
+      "The child became non-living",
+      "The door moved",
+      "The window became a reference point only"
+    ],
+    "answer": 0,
+    "rationale": "The child moved to a new position.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_104",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "If an object has not moved, what can you say about its position?",
+    "choices": [
+      "It is still in its original position",
+      "It is farther from every object",
+      "It is always moving",
+      "It changed direction"
+    ],
+    "answer": 0,
+    "rationale": "If there is no movement, the object remains in its original position.",
+    "level": "Easy"
+  },
+  {
+    "id": "G3S2_105",
+    "topic": "Position and Change in Position",
+    "competency": "Measure and describe changes in the position of people or objects relative to their original position.",
+    "question": "Which activity best helps learners study changes in position?",
+    "choices": [
+      "Mark the starting and ending places of a moving object",
+      "Change the object's color",
+      "Give the object a name",
+      "Decorate the classroom"
+    ],
+    "answer": 0,
+    "rationale": "Recording start and end positions makes movement easier to describe.",
+    "level": "Moderate"
+  }
+]
